@@ -27,9 +27,3 @@ def call_counter(func):
                             def magic_string():
 
                                     return 'Holberton, ' * (magic_string.calls - 1) + 'Holberton'
-
-
-
-                                for i in range(10):
-
-                                        print(magic_string())
