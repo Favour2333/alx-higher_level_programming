@@ -26,3 +26,4 @@ def add_integer(a, b=98):
             raise TypeError("{} must be an integer".format(param))
 
     return sum(values)
+
